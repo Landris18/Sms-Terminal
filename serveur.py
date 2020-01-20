@@ -2,7 +2,7 @@ try:
 
         import socket
         hote = "localhost"
-        port = 12800
+        port = 12500
         connexion_principale = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         connexion_principale.bind((hote, port))
         print("Connexion etablie avec le serveur sur le port {}".format(port))
