@@ -1,11 +1,11 @@
 import socket
 
 connexion_avec_serveur = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-connexion_avec_serveur.connect(('192.168.12.58', 12800))
+connexion_avec_serveur.connect(('192.168.10.103', 12800))
 
 print("Connexion etablie sur le port {}".format(12800))
 
-msg_a_envoyer = b" "
+msg_a_envoyer = b"Hello"
 
 while  msg_a_envoyer != b"fin":
         msg_a_envoyer = str(input(">>> "))
