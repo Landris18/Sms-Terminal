@@ -5,7 +5,7 @@ connexion_avec_serveur.connect(('192.168.10.103', 12800))
 
 print("Connexion etablie sur le port {}".format(12800))
 
-msg_a_envoyer = b"Hello"
+msg_a_envoyer = b"Starting..."
 
 while  msg_a_envoyer != b"fin":
         msg_a_envoyer = str(input(">>> "))
