@@ -17,7 +17,7 @@ try:
 		msg_recu = connexion_avec_server.recv(1024)
 		print(msg_recu.decode())
 	
-	print("Fin de la connexion")
+	print("Fin de la connexion...")
 	connexion_avec_server.close()
 
 except:
